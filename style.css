@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "ITC Avant Garde Gothic Demi";
+  src: url("fonts/ITC Avant Garde Gothic Demi.eot");
+  src: url("fonts/ITC Avant Garde Gothic Demi.woff") format("woff"),
+    url("fonts/ITC Avant Garde Gothic Demi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  width: 272px;
+}
+
+.logo-pic__big-circle {
+  position: relative;
+  height: 82px;
+  width: 82px;
+  border-radius: 50%;
+  background-color: #fff;
+  background-image: linear-gradient(34deg, #261f0f 50%, transparent 50%),
+    linear-gradient(326deg, transparent 50%, #261f0f 50%);
+}
+
+.logo-pic__inner-circle {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #00adff;
+  background-image: linear-gradient(34deg, white 50%, transparent 50%),
+    linear-gradient(326deg, transparent 50%, white 50%);
+}
+
+.text-block {
+  position: relative;
+  display: block;
+  margin: 0 0 0 9px;
+}
+
+.basic-logo-text {
+  font-family: "ITC Avant Garde Gothic Demi";
+  letter-spacing: 2.4px;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.expert-text-color {
+  color: #00adff;
+}
+
+.bottom-line {
+  display: flex;
+  align-items: center;
+  margin: 4px 0 0 0;
+}
+
+.bottom-line__right-block {
+  margin: 0 0 0 4px;
+  display: block;
+  font-size: 10px;
+  width: 60px;
+}
+
+.bottom-line__right-block_text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 9px;
+  line-height: 11px;
+}
